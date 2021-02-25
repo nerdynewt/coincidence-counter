@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vishnu/fpga/VerilogTest/simulation/qsim
+vhard_block
+Z1 !s110 1614070026
+!i10b 1
+!s100 cG=Ao3<3b_1=MXMOM393M0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQi8>XR2Re5@eokRCzIlF[2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1614070025
+Z5 8VerilogTest.vo
+Z6 FVerilogTest.vo
+!i122 0
+L0 122 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1614070026.000000
+Z9 !s107 VerilogTest.vo|
+Z10 !s90 -work|work|VerilogTest.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vVerilogTest
+R1
+!i10b 1
+!s100 FBQ<1z6BN9b36bNAXYHT;1
+R2
+IUI3iEejl?2[Y;5:I4FnKF2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 89
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@verilog@test
+vVerilogTest_vlg_vec_tst
+R1
+!i10b 1
+!s100 a3lEER=Xl9Q[YUeAHH8]C1
+R2
+Ih>NY^cHC5dU@7;]I`@6f60
+R3
+R0
+w1614070024
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 66
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@verilog@test_vlg_vec_tst

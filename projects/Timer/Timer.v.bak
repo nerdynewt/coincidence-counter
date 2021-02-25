@@ -1,0 +1,19 @@
+module SecondsClock(
+		input sys_clk, // 50MHz clock, PIN_Y2
+		output reg toggle); // LED, PIN_F19
+		// output reg reset);
+
+reg [24:0] counter = 0;
+
+always @(posedge sys_clk) begin
+		if (counter == 49_999_999 ) begin
+				counter <= 0;
+				// reset <= 1;
+				toggle <= ~toggle;
+		end
+		else begin
+				counter <= counter + 1;
+				// reset <= 0;
+		end
+end
+endmodule
