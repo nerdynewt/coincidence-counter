@@ -1,0 +1,60 @@
+|UART_Transmitter
+clk => clk.IN1
+TxD_start => always0.IN1
+TxD_start => TxD_state.OUTPUTSELECT
+TxD_start => TxD_state.OUTPUTSELECT
+TxD_start => TxD_state.OUTPUTSELECT
+TxD_start => TxD_state.OUTPUTSELECT
+TxD_start => TxD_done.OUTPUTSELECT
+TxD << TxD.DB_MAX_OUTPUT_PORT_TYPE
+TxD_done << TxD_done~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|UART_Transmitter|BaudTickGen:tickgen
+clk => Acc[0].CLK
+clk => Acc[1].CLK
+clk => Acc[2].CLK
+clk => Acc[3].CLK
+clk => Acc[4].CLK
+clk => Acc[5].CLK
+clk => Acc[6].CLK
+clk => Acc[7].CLK
+clk => Acc[8].CLK
+clk => Acc[9].CLK
+clk => Acc[10].CLK
+clk => Acc[11].CLK
+clk => Acc[12].CLK
+clk => Acc[13].CLK
+clk => Acc[14].CLK
+clk => Acc[15].CLK
+clk => Acc[16].CLK
+clk => Acc[17].CLK
+clk => Acc[18].CLK
+clk => Acc[19].CLK
+clk => Acc[20].CLK
+clk => Acc[21].CLK
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+enable => Acc.OUTPUTSELECT
+tick <= Acc[21].DB_MAX_OUTPUT_PORT_TYPE
+
+
